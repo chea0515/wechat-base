@@ -1,2 +1,2 @@
-java 版本： 1.8以上
-开发工具：IntelliJ IDEA
+java version: JDK1.8
+development tools: IntelliJ IDEA
