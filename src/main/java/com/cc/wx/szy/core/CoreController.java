@@ -56,6 +56,7 @@ public class CoreController {
                 sb.append(new String(b, 0, len));
             }
             String str = sb.toString();
+            log.info("info char: {}", str);
 
             BaseEvent recBase = XMLUtil.xml2bean(str, BaseEvent.class);
 
