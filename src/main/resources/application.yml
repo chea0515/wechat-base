@@ -1,0 +1,16 @@
+server:
+  port: 9000
+  contextPath: /
+
+# http://116.247.112.152/index  http://ichnnet.5166.info/index
+
+# weixin config
+# 测试：appID: wxadee42a4fe36508e   appsecret: b27c61d74d274e3711e1a5d00cbaa367
+# 正式：appID: wx4df89f0e832a8415   appsecret: b26456da5464fe9641524369276d5c19
+weixin.config:
+  appID: wxadee42a4fe36508e
+  appsecret: b27c61d74d274e3711e1a5d00cbaa367
+  token: ccWXApp
+  encodingAesKey: "8SHWelnardlGJi9V2118K3tpP1bY86K8HJMu0nJdILk"
+  apiUrl: "https://api.weixin.qq.com/cgi-bin"
+  accessToken: "17_s1Oc537OKmsHY4NI15aEWOeZ0UXAZGv2FRmc1IP3FauBVl7KPI55UczFLKZAbueRftBl4P7Z-I6Jhy4IGSVZeFTpnTiHOmEJRSGacXO6x0UKp5DnArB8ZhxVa6pH9YG7DcAMe9yZXm8Qz6KXDGDcAFARUR"
